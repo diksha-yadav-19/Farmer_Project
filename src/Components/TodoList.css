@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  background-color: rgba(243, 235, 241, 0.678);
+}
+
+.todo-list-container {
+  max-width: 600px;
+  margin: auto;
+  margin-top: 30px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #62d1d7;
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+  color: #140d3c;
+}
+
+.input-container {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="date"] {
+  flex-grow: 1;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #989898;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+li .button-container {
+  display: flex;
+  gap: 10px;
+}
+
+li button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+li button:nth-child(2) {
+  background-color: #28a745;
+}
+
+.filter-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.filter-button {
+  padding: 8px 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.clear-button {
+  background-color: #dc3545;
+  color: #fff;
+  padding: 8px 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
